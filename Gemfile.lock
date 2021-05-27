@@ -132,14 +132,14 @@ GEM
     autoprefixer-rails (10.1.0.0)
       execjs
     aws-eventstream (1.1.0)
-    aws-partitions (1.405.0)
-    aws-sdk-core (3.110.0)
+    aws-partitions (1.463.0)
+    aws-sdk-core (3.114.0)
       aws-eventstream (~> 1, >= 1.0.2)
       aws-partitions (~> 1, >= 1.239.0)
       aws-sigv4 (~> 1.1)
       jmespath (~> 1.0)
-    aws-sdk-eventbridge (1.18.0)
-      aws-sdk-core (~> 3, >= 3.109.0)
+    aws-sdk-eventbridge (1.24.0)
+      aws-sdk-core (~> 3, >= 3.112.0)
       aws-sigv4 (~> 1.1)
     aws-sdk-kms (1.39.0)
       aws-sdk-core (~> 3, >= 3.109.0)
@@ -568,7 +568,7 @@ DEPENDENCIES
   active_record_upsert
   acts_as_paranoid
   autoprefixer-rails (~> 10.1)
-  aws-sdk-eventbridge
+  aws-sdk-eventbridge (= 1.24.0)
   aws-sdk-s3
   axe-matchers
   better_errors
