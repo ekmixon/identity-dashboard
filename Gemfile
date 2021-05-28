@@ -95,5 +95,3 @@ group :production do
 end
 
 gem 'autoprefixer-rails', '~> 10.1'
-
-gem "aws-sdk-eventbridge", "= 1.24.0"
