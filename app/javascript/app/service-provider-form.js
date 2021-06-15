@@ -10,23 +10,33 @@ $(function(){
 
   var toggle_form_fields = function(id_protocol){
     switch(id_protocol){
-      case 'openid_connect':
+      case 'openid_connect_private_key_jwt':
         $('.saml-fields').hide();
         $('.oidc-fields').show();
+        $('.cert-fields').show();
+        break;
+      case 'openid_connect_pkce':
+        $('.saml-fields').hide();
+        $('.oidc-fields').show();
+        $('.cert-fields').hide();
         break;
       case 'saml':
         $('.saml-fields').show();
         $('.oidc-fields').hide();
+        $('.cert-fields').show();
         break;
       default:
         $('.saml-fields').show();
         $('.oidc-fields').show();
+        $('.cert-fields').show();
     }
   }
 
   var issuer_protocol_name = function(id_protocol){
     switch(id_protocol){
-      case 'openid_connect':
+      case 'openid_connect_private_key_jwt':
+        return 'openidconnect';
+      case 'openid_connect_pkce:
         return 'openidconnect';
       case 'saml':
         return 'SAML:2.0';
