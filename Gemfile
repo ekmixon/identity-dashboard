@@ -30,7 +30,7 @@ gem 'paper_trail', '~> 11.0'
 gem 'pg'
 gem 'pry-rails'
 gem 'pundit', '>= 2.1.0'
-gem 'rack-canonical-host'
+gem 'rack-canonical-host', '>= 1.0.0'
 gem 'rack-timeout', require: false
 gem 'rails', '~> 6.1.3'
 gem 'recipient_interceptor'
@@ -86,7 +86,7 @@ group :test do
   gem 'sinatra', '>= 2.1.0'
   gem 'timecop'
   gem 'webdrivers', '~> 4.4', '>= 4.4.1'
-  gem 'webmock'
+  gem 'webmock', '>= 3.10.0'
   gem 'websocket-driver', '= 0.7.3'
 end
 
