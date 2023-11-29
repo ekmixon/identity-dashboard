@@ -8,8 +8,8 @@
     "test": "NODE_ENV=test `npm bin`/mocha --require @babel/register --require spec/javascripts/spec_helper.js 'spec/javascripts/**/**_spec.js'"
   },
   "dependencies": {
-    "@rails/webpacker": "^4.3.0",
-    "identity-style-guide": "^2.2.3",
+    "@rails/webpacker": "^5.2.2",
+    "identity-style-guide": "^5.0.0",
     "jquery": "^3.5.0",
     "jquery-ujs": "^1.2.2",
     "kind-of": "^6.0.3",
@@ -21,9 +21,9 @@
     "@babel/register": "^7.9.0",
     "chai": "^4.2.0",
     "dirty-chai": "^2.0.1",
-    "jsdom": "^16.2.2",
+    "jsdom": "^16.6.0",
     "mocha": "^7.1.1",
     "sinon": "^9.0.2",
-    "webpack-dev-server": "^3.11.0"
+    "webpack-dev-server": "^4.7.3"
   }
 }
