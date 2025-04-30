@@ -66,7 +66,7 @@ group :development, :test do
   gem 'i18n-tasks', '>= 0.9.31'
   gem 'pry-byebug'
   gem 'puma'
-  gem 'rspec-rails', '~> 4.0', '>= 4.0.1'
+  gem 'rspec-rails', '~> 8.0', '>= 8.0.0'
   gem 'rubocop', '~> 1.11.0'
   gem 'rubocop-rails', '~> 2.5.0'
   gem 'rubocop-rspec'
